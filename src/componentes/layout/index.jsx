@@ -7,25 +7,18 @@ import Switch from '@mui/material/Switch';
 import LightModeIcon from '@mui/icons-material/LightMode';
 import Brightness3Icon from '@mui/icons-material/Brightness3';
 
-
-
 export default function ButtonAppBar() {
     const label = { inputProps: { 'aria-label': 'Switch demo' } };
     return (
       <Box sx={{ flexGrow: 1 }}>
         <AppBar position="static">
           <Toolbar>
-           
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
               Diego Alejando Prieto
             </Typography>
-
-
-            <LightModeIcon />
+             <LightModeIcon />
             <Switch {...label} />
             <Brightness3Icon/>
-
-
           </Toolbar>
         </AppBar>
       </Box>
