@@ -4,8 +4,7 @@ import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import { Avatar, CardHeader } from '@mui/material';
 
-
-export default function ActionAreaCard() {
+export default function DatosPersonales() {
   return (
     <Card sx={{ margin:"20px"}} elevation={6}     >
         <CardContent>

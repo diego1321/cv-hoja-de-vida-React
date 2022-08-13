@@ -6,8 +6,9 @@ import Typography from '@mui/material/Typography';
 import Switch from '@mui/material/Switch';
 import LightModeIcon from '@mui/icons-material/LightMode';
 import Brightness3Icon from '@mui/icons-material/Brightness3';
+import DatosPersonales from "../datos-personales/DatosPersonales";
 
-export default function ButtonAppBar() {
+export default function Layout({mode,setMode}) {
     const label = { inputProps: { 'aria-label': 'Switch demo' } };
     return (
       <Box sx={{ flexGrow: 1 }}>
@@ -17,10 +18,11 @@ export default function ButtonAppBar() {
               Diego Alejando Prieto
             </Typography>
              <LightModeIcon />
-            <Switch {...label} />
+            <Switch onChange={() => setMode(mode === "oscuro" ? "claro": "oscuro")} {...label} />
             <Brightness3Icon/>
           </Toolbar>
         </AppBar>
+        <DatosPersonales/>
       </Box>
     );
   }
