@@ -7,6 +7,7 @@ import Switch from '@mui/material/Switch';
 import LightModeIcon from '@mui/icons-material/LightMode';
 import Brightness3Icon from '@mui/icons-material/Brightness3';
 import DatosPersonales from "../datos-personales/DatosPersonales";
+import Proyectos from '../proyectos/Proyectos';
 
 export default function Layout({mode,setMode}) {
     const label = { inputProps: { 'aria-label': 'Switch demo' } };
@@ -23,6 +24,7 @@ export default function Layout({mode,setMode}) {
           </Toolbar>
         </AppBar>
         <DatosPersonales/>
+        <Proyectos/>
       </Box>
     );
   }
