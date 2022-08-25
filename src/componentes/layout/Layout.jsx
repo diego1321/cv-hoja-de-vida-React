@@ -7,6 +7,7 @@ import Switch from '@mui/material/Switch';
 import LightModeIcon from '@mui/icons-material/LightMode';
 import Brightness3Icon from '@mui/icons-material/Brightness3';
 import DatosPersonales from "../datos-personales/DatosPersonales";
+import Proyectos from '../proyectos/Proyectos';
 import Tecnologias from '../tecnologias/Tecnologias';
 
 export default function Layout({mode,setMode}) {
@@ -25,7 +26,8 @@ export default function Layout({mode,setMode}) {
         </AppBar>
         <DatosPersonales/>
         <Tecnologias/>
-      </Box>
+        <Proyectos/>
+        </Box>
     );
   }
   
