@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cv-hoja-de-vida-React/static/css/main.e6c13ad2.css",
+    "main.js": "/cv-hoja-de-vida-React/static/js/main.41aa9281.js",
+    "static/js/787.47dec238.chunk.js": "/cv-hoja-de-vida-React/static/js/787.47dec238.chunk.js",
+    "index.html": "/cv-hoja-de-vida-React/index.html",
+    "main.e6c13ad2.css.map": "/cv-hoja-de-vida-React/static/css/main.e6c13ad2.css.map",
+    "main.41aa9281.js.map": "/cv-hoja-de-vida-React/static/js/main.41aa9281.js.map",
+    "787.47dec238.chunk.js.map": "/cv-hoja-de-vida-React/static/js/787.47dec238.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.41aa9281.js"
+  ]
+}
