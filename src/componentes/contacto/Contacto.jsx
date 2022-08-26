@@ -5,6 +5,7 @@ import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
 import Box from '@mui/material/Box';
+import { Typography } from '@mui/material';
 
 export default function Contacto() {
     return (
@@ -18,9 +19,9 @@ export default function Contacto() {
       noValidate
       autoComplete="off"
     >
-          <div>
-           <h2>Contacto</h2> 
-          </div>
+          <Typography variant="h5" component="div">
+            Contacto
+          </Typography>
           <TextField id="filled-basic" label="Nombre" variant="filled" />
           <TextField id="filled-basic" label="Apellido" variant="filled" />
           <TextField id="filled-basic" label="Email" variant="filled" />
