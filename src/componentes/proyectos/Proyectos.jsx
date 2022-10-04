@@ -55,7 +55,7 @@ export default function Proyectos() {
         </Typography>
           <Typography variant="body2">
             <Grid container spacing={2}>  
-            {proyectos.map((proyecto,indice)=><Grid key={`grid-proyecto-${indice}`} item xs={4}><Proyecto nombreproyecto={proyecto.nombre} descripcion={proyecto.descripcion} link={proyecto.link}/></Grid>)}
+            {proyectos.map((proyecto,indice)=><Grid key={`grid-proyecto-${indice}`} item xs={12} md={6} lg={4}><Proyecto nombreproyecto={proyecto.nombre} descripcion={proyecto.descripcion} link={proyecto.link}/></Grid>)}
             </Grid>
           </Typography>
       </CardContent>
