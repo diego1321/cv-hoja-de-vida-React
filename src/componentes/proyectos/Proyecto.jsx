@@ -2,7 +2,8 @@ import * as React from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
-import { Button, CardActions } from '@mui/material';
+import { IconButton, CardActions } from '@mui/material';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 export default function Proyecto({nombreproyecto, descripcion, link}) {
    return (
@@ -16,7 +17,7 @@ export default function Proyecto({nombreproyecto, descripcion, link}) {
           </Typography>
         </CardContent>
         <CardActions> 
-         <a rel='noreferrer' target={"_blank"} href={link}><Button variant='contained'>{nombreproyecto}</Button></a>
+         <a rel='noreferrer' target={"_blank"} href={link}><IconButton color="primary" aria-label="upload picture" component="label"><GitHubIcon/></IconButton></a>
         </CardActions>
       </Card>
   );

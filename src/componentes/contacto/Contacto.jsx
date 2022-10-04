@@ -6,6 +6,7 @@ import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
 import Box from '@mui/material/Box';
 import { Typography } from '@mui/material';
+import SendIcon from '@mui/icons-material/Send';
 
 export default function Contacto() {
     return (
@@ -30,7 +31,7 @@ export default function Contacto() {
          </Box>
         </CardContent>
         <CardActions>
-          <Button size="small" variant="contained" >Enviar</Button>
+          <Button size="small" variant="contained" ><SendIcon/></Button>
         </CardActions>
       </Card>
     );
